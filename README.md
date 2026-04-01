@@ -19,6 +19,14 @@ linux-commands-showcase/
 │   └── pipelines.md
 │
 ├── 02-viewing-and-processing-data/
+│   ├── cat-less-head-tail.md
+│   ├── grep.md
+│   ├── grep-advanced.md
+│   ├── awk.md
+│   ├── cut-sort-uniq.md
+│   ├── wc.md
+│   └── tee.md
+│
 ├── 03-users-and-permissions/
 ├── 04-processes-and-system-performance/
 ├── 05-services-and-systemd/
@@ -39,7 +47,7 @@ Core Linux commands used for navigating the filesystem and managing files and di
 
 - [ls](01-files-and-navigation/ls.md) — list files and directories  
 - [cd](01-files-and-navigation/cd.md) — change directory  
-- [creating files and directories](01-files-and-navigation/creating-files-and-directories.md) — `mkdir`, `touch`  
+- [creating files and directories](01-files-and-navigation/creating-files-and-directories.md) — mkdir, touch  
 - [cp, mv, rm](01-files-and-navigation/cp-mv-rm.md) — copy, move, delete  
 - [find](01-files-and-navigation/find.md) — search the filesystem  
 - [locate](01-files-and-navigation/locate.md) — fast file lookup  
@@ -47,12 +55,26 @@ Core Linux commands used for navigating the filesystem and managing files and di
 
 ---
 
+## Section 02 — Viewing and Processing Data
+
+Commands used to view, filter, and process data, particularly for logs and troubleshooting.
+
+- [cat, less, head, tail](02-viewing-and-processing-data/cat-less-head-tail.md) — view file contents  
+- [grep](02-viewing-and-processing-data/grep.md) — search text  
+- [grep (advanced)](02-viewing-and-processing-data/grep-advanced.md) — regex, filtering, context  
+- [awk](02-viewing-and-processing-data/awk.md) — process structured data  
+- [cut, sort, uniq](02-viewing-and-processing-data/cut-sort-uniq.md) — extract and organise data  
+- [wc](02-viewing-and-processing-data/wc.md) — count lines, words, characters  
+- [tee](02-viewing-and-processing-data/tee.md) — output to file and terminal  
+
+---
+
 ## Purpose
 
 - demonstrate practical Linux command-line skills  
-- show real-world troubleshooting and workflows  
+- show real-world troubleshooting workflows  
 - build a portfolio for technical roles (IT Support, SysAdmin, Cloud, Cybersecurity)  
-- provide a useful reference for beginners  
+- provide a structured reference for beginners  
 
 ---
 
@@ -61,16 +83,15 @@ Core Linux commands used for navigating the filesystem and managing files and di
 - file and directory management  
 - command-line navigation  
 - searching and filtering data  
+- log analysis and data processing  
 - troubleshooting common Linux issues  
-- understanding system behaviour  
 
 ---
 
 ## Work in Progress
 
-This repository is actively being expanded to include:
+This repository will be expanded to include:
 
-- log analysis and data processing  
 - user and permission management  
 - process monitoring and system performance  
 - networking and troubleshooting  
@@ -82,8 +103,13 @@ This repository is actively being expanded to include:
 
 Commands are tested on:
 
-- Ubuntu 
+- Ubuntu  
 - Bash shell  
 
 ---
 
+## Notes
+
+All examples are based on practical usage scenarios, with screenshots included to demonstrate real command output and behaviour.
+
+---
